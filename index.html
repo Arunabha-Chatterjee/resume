@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Mobile App</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: #fff;
+      text-align: center;
+      background-color: rgba(0, 0, 255, 0.685);
+    }
+
+    header {
+      margin-top: 7%;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+
+    section {
+      padding: 20px;
+      margin-top: 20%;
+    }
+
+    /* footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    } */
+
+    @media (max-width: 600px) {
+      header, footer {
+        font-size: 14px;
+      }
+
+      section {
+        margin-top: 10%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your account has been suspended.</h1>
+  </header>
+
+  <section>
+    <h2>You were not able to log in or reopen an account with your personal details.</h2>
+    <p>All available balances will be transferred to the bank within a few days.</p>
+  </section>
+<!-- 
+  <footer>
+    All available balances will be transferred to the bank within a few days.
+  </footer> -->
+
+</body>
+</html>
